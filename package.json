@@ -1,0 +1,22 @@
+{
+  "publisher": "Vesta-exe",
+  "name": "vesta-exe-theme",
+  "displayName": "Vesta-exe Theme",
+  "description": "Vesta-exe personal theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vesta-exe Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Vesta-exe Theme-color-theme.json"
+      }
+    ]
+  }
+}
